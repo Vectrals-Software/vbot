@@ -1,15 +1,14 @@
 {
   "name": "@vectrals/vbot",
-  "version": "0.1.35",
+  "version": "0.1.36",
   "description": "Bot de wahtsapp open source para MVP o pequeños negocios",
   "main": "app.js",
-  "private": true,
+  "private": false,
   "scripts": {
     "clean": "npx lerna clean --y",
     "commit": "git-cz",
     "format:check": "prettier --check ./packages",
     "format:write": "prettier --write ./packages",
-    "fmt.staged": "pretty-quick --staged",
     "lint:check": "eslint .",
     "lint:fix": "eslint --fix ./packages",
     "build:full": "pnpm run clean && pnpm i && pnpm run build",
